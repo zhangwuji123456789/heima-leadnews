@@ -1,7 +1,7 @@
 package com.heima.model.article.dto;
 
 import com.heima.model.common.dtos.PageRequestDto;
-import lombok.Data;
+import lombok.*;
 
 /**
  * @Author Ma zhi lin
@@ -9,6 +9,10 @@ import lombok.Data;
  * @Version 1.0
  */
 @Data
+@Getter
+@Setter
+@Builder
+@AllArgsConstructor
 public class ApUserRealnameDto extends PageRequestDto {
 
     private Integer id;
